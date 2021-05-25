@@ -102,7 +102,7 @@ var summitBlueBtn = document.getElementsByClassName('modal-accept-button');
       }
   });
 
-// Gets information for searchbar
+// Gets information for searchbar and other 
   var searchButton = document.getElementById('navbar-search-button');
   searchButton.addEventListener('click', function(){
     var searchInfo = document.getElementById('navbar-search-input').value.toLowerCase();
